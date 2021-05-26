@@ -5,6 +5,7 @@ __pycache__/
 data/
 results/
 runs/
+model_save/
 
 # C extensions
 *.so
