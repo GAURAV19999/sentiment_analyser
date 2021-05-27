@@ -1,0 +1,10 @@
+modeltype,model_name,accuracy,mcc,eval_loss,learning_rate,num_train_epochs,max_length,sliding_window,batch_size,comment
+roberta,roberta-base,0.7288888888888889,0.5965240350955352,1.041629402849235,5e-05,4,128,True,32,
+roberta,roberta-base,0.8426666666666667,0.7648062474904012,0.5287977776637203,2e-05,4,128,True,32,
+roberta,roberta-base,0.7635555555555555,0.6454350810459678,0.5914580263197422,2e-05,4,512,True,32,
+roberta,roberta-base,0.7635555555555555,0.6454350810459678,0.5914580263197422,2e-05,4,512,True,32,changes to the Max sequence Length
+distilbert,distilbert-base-uncased,0.7031111111111111,0.5555939241739528,0.805965565033813,2e-05,4,128,True,32,Model to Distilbert with the 2e-5
+distilbert,distilbert-base-uncased,0.888,0.8320088748086638,0.3592195545337093,3e-05,4,128,True,32,Increasing the Training learning rate
+distilbert,distilbert-base-uncased,0.8773333333333333,0.8161199482203444,0.3703847581993288,3e-05,4,128,True,32,Rerunning the same model again to find accuracy
+albert,albert-base-v2,0.7191111111111111,0.5805945166755403,1.0065942120713156,3e-05,4,128,True,32,Rerunning the same model again to find accuracy
+albert,albert-base-v2,0.8933333333333333,0.8400567524176431,0.36945050280239133,2e-05,4,128,True,32,Changed the model to Albert and increasing the learning rate
